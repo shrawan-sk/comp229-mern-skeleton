@@ -4,7 +4,7 @@ const config = {
   jwtSecret: process.env.JWT_SECRET || "YOUR_secret_key",
   mongoUri:
     process.env.MONGODB_URI ||
-    "mongodb://0.0.0.0:27017/mernproject" ||
+    "mongodb+srv://maaz:admin@car-rental-system.y05xmyb.mongodb.net/?retryWrites=true&w=majority&appName=car-rental-system" ||
     process.env.MONGO_HOST ||
     "mongodb://" +
       (process.env.IP || "localhost") +
