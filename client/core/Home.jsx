@@ -28,7 +28,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import unicornbikeImg from './../assets/images/unicornbikeImg.jpg';
+import CarRentalImg from './../assets/images/CarRentalImg.jpg';
 import { Link } from 'react-router-dom';
    
 
@@ -56,10 +56,10 @@ return (
 
 
 <CardMedia className={classes.media}
-image={unicornbikeImg} title="Unicorn Bicycle"/>
+image={CarRentalImg} title="Car Rental"/>
 <CardContent>
 <Typography variant="body2" component="p"> 
-Welcome to the MERN Skeleton home page.
+Welcome to the CAR Rental home page.
 </Typography> 
 </CardContent>
 </Card> 
